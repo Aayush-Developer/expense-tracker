@@ -9,7 +9,9 @@ import mongoose from "mongoose";
 import dashboardRoutes from './routes/dashboard.routes.js'
 dotenv.config();
 const app=express()
-const PORT=4000
+const PORT = process.env.PORT || 4000;
+
+
 
 //middlewares
 app.use(cors())
