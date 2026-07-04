@@ -1,0 +1,73 @@
+.recent-transactions{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:24px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+
+}
+
+.recent-transactions h2{
+
+    margin-bottom:18px;
+
+    font-size:24px;
+
+    color:#1E293B;
+
+}
+
+.transaction-list{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+    max-height:420px;
+
+    overflow-y:auto;
+
+    padding-right:14px;
+
+    margin-right:-6px;
+
+}
+
+.transaction-list::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.transaction-list::-webkit-scrollbar-track{
+
+    background:transparent;
+
+    margin:8px 0;
+
+}
+
+.transaction-list::-webkit-scrollbar-thumb{
+
+    background:#CBD5E1;
+
+    border-radius:999px;
+
+    border:2px solid transparent;
+
+    background-clip:content-box;
+
+}
+
+.transaction-list::-webkit-scrollbar-thumb:hover{
+
+    background:#94A3B8;
+
+    background-clip:content-box;
+
+}

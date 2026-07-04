@@ -1,0 +1,61 @@
+.spending-category{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    padding:24px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.06);
+
+}
+
+.spending-category h2{
+
+    margin-bottom:24px;
+
+    color:#1E293B;
+
+}
+
+.chart-container{
+
+    width:240px;
+
+    height:240px;
+
+    margin:20px auto;
+
+}
+
+.category-list{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.category-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:10px 0;
+
+    border-bottom:1px solid #EEF2F7;
+
+}
+
+.category-item:last-child{
+
+    border-bottom:none;
+
+}

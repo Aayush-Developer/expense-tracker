@@ -1,0 +1,45 @@
+.financial-card{
+
+    margin-top:30px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:25px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.06);
+
+}
+
+.financial-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.financial-header h2{
+
+    font-size:24px;
+
+}
+
+.financial-header select{
+
+    padding:10px 16px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}

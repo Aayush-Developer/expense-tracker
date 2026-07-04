@@ -1,0 +1,296 @@
+.income-actions{
+    display:flex;
+    gap:12px;
+    align-items:center;
+}
+
+.export-btn{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    padding:12px 18px;
+
+    border:1px solid #16a34a;
+
+    background:#fff;
+
+    color:#16a34a;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:0.25s ease;
+}
+
+.export-btn:hover{
+    background:#16a34a;
+    color:white;
+}
+
+/* ===========================
+   Income Header
+=========================== */
+
+.income-header{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:40px;
+
+}
+
+.income-header-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.income-header h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#1E293B;
+
+    margin:0;
+
+}
+
+.income-header p{
+
+    color:#64748B;
+
+    margin-top:8px;
+
+    font-size:16px;
+
+}
+/* ===========================
+   Income Grid
+=========================== */
+
+
+
+.income-history{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+/* ===========================
+   Modal
+=========================== */
+
+.modal-overlay{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    backdrop-filter:blur(6px);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+
+.modal{
+
+    background:white;
+
+    width:550px;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 15px 50px rgba(0,0,0,.2);
+
+}
+.modal-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.modal-header h2{
+
+    font-size:26px;
+
+}
+
+.close-btn{
+
+    border:none;
+
+    background:none;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+}
+
+.modal-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+}
+
+.form-group label{
+
+    font-weight:600;
+
+}
+
+.form-group input,
+.form-group select{
+
+    padding:14px;
+
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    font-size:15px;
+
+}
+
+.form-row{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
+
+.modal-buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:14px;
+
+    margin-top:10px;
+
+}
+
+.cancel-btn{
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#e5e7eb;
+
+}
+
+.submit-btn{
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+}
+.income-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+
+    gap: 24px;
+
+    margin-top: 24px;
+
+}
+
+/* Button */
+.add-income-btn{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 22px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    box-shadow:0 8px 20px rgba(37,99,235,.25);
+
+}
+
+.add-income-btn:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+
+}

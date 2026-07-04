@@ -1,0 +1,73 @@
+:root{
+
+    --primary:#2563EB;
+
+    --success:#22C55E;
+
+    --danger:#EF4444;
+
+    --warning:#F59E0B;
+
+    --background:#F5F7FB;
+
+    --card:#FFFFFF;
+
+    --text:#1F2937;
+
+    --text-light:#6B7280;
+
+    --border:#E5E7EB;
+
+    --radius:16px;
+
+    --shadow:
+        0 8px 24px rgba(0,0,0,.08);
+
+    --transition:.25s ease;
+
+}
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:var(--background);
+
+    font-family:
+        Inter,
+        system-ui,
+        sans-serif;
+
+    color:var(--text);
+
+}
+
+button{
+
+    cursor:pointer;
+
+    font-family:inherit;
+
+}
+
+input{
+
+    font-family:inherit;
+
+}
+@import "./styles/layout.css";
+@import "./styles/navbar.css";
+@import "./styles/sidebar.css";
+@import "./styles/statcard.css";
+@import "./styles/income.css";
+@import "./styles/expense.css";
+@import "./styles/profile.css";
+@import "./styles/dashboard.css";
